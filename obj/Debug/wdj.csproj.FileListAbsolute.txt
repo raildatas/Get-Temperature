@@ -1,0 +1,11 @@
+D:\编程\A应\wdj\bin\Debug\wdj.exe.config
+D:\编程\A应\wdj\bin\Debug\wdj.exe
+D:\编程\A应\wdj\bin\Debug\wdj.pdb
+D:\编程\A应\wdj\obj\Debug\wdj.csproj.AssemblyReference.cache
+D:\编程\A应\wdj\obj\Debug\wdj.csproj.SuggestedBindingRedirects.cache
+D:\编程\A应\wdj\obj\Debug\wdj.Form1.resources
+D:\编程\A应\wdj\obj\Debug\wdj.Properties.Resources.resources
+D:\编程\A应\wdj\obj\Debug\wdj.csproj.GenerateResource.cache
+D:\编程\A应\wdj\obj\Debug\wdj.csproj.CoreCompileInputs.cache
+D:\编程\A应\wdj\obj\Debug\wdj.exe
+D:\编程\A应\wdj\obj\Debug\wdj.pdb
