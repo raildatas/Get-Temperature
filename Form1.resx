@@ -117,7 +117,601 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbltmp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbltmp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lbltmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>912, 111</value>
+  </data>
+  <data name="lbltmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 113</value>
+  </data>
+  <data name="lbltmp.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbltmp.Text" xml:space="preserve">
+    <value>℃</value>
+  </data>
+  <data name="&gt;&gt;lbltmp.Name" xml:space="preserve">
+    <value>lbltmp</value>
+  </data>
+  <data name="&gt;&gt;lbltmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltmp.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbltmp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblnum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblnum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblnum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 111</value>
+  </data>
+  <data name="lblnum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 113</value>
+  </data>
+  <data name="lblnum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblnum.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;lblnum.Name" xml:space="preserve">
+    <value>lblnum</value>
+  </data>
+  <data name="&gt;&gt;lblnum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblnum.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblnum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblwt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblwt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblwt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1065, 111</value>
+  </data>
+  <data name="lblwt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 113</value>
+  </data>
+  <data name="lblwt.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblwt.Text" xml:space="preserve">
+    <value>天气</value>
+  </data>
+  <data name="&gt;&gt;lblwt.Name" xml:space="preserve">
+    <value>lblwt</value>
+  </data>
+  <data name="&gt;&gt;lblwt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblwt.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblwt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblWind.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWind.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblWind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 250</value>
+  </data>
+  <data name="lblWind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 113</value>
+  </data>
+  <data name="lblWind.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblWind.Text" xml:space="preserve">
+    <value>无风</value>
+  </data>
+  <data name="&gt;&gt;lblWind.Name" xml:space="preserve">
+    <value>lblWind</value>
+  </data>
+  <data name="&gt;&gt;lblWind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWind.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblWind.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblWindLv.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWindLv.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblWindLv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 250</value>
+  </data>
+  <data name="lblWindLv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 113</value>
+  </data>
+  <data name="lblWindLv.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblWindLv.Text" xml:space="preserve">
+    <value>0级</value>
+  </data>
+  <data name="&gt;&gt;lblWindLv.Name" xml:space="preserve">
+    <value>lblWindLv</value>
+  </data>
+  <data name="&gt;&gt;lblWindLv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWindLv.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblWindLv.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbltxt3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbltxt3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lbltxt3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 250</value>
+  </data>
+  <data name="lbltxt3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 113</value>
+  </data>
+  <data name="lbltxt3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbltxt3.Text" xml:space="preserve">
+    <value>紫外线</value>
+  </data>
+  <data name="&gt;&gt;lbltxt3.Name" xml:space="preserve">
+    <value>lbltxt3</value>
+  </data>
+  <data name="&gt;&gt;lbltxt3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltxt3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbltxt3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblzyx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblzyx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblzyx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1037, 250</value>
+  </data>
+  <data name="lblzyx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 113</value>
+  </data>
+  <data name="lblzyx.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblzyx.Text" xml:space="preserve">
+    <value>弱</value>
+  </data>
+  <data name="&gt;&gt;lblzyx.Name" xml:space="preserve">
+    <value>lblzyx</value>
+  </data>
+  <data name="&gt;&gt;lblzyx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblzyx.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblzyx.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="weatherDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="weatherDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 100</value>
+  </data>
+  <data name="weatherDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>825, 122</value>
+  </data>
+  <data name="weatherDate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;weatherDate.Name" xml:space="preserve">
+    <value>weatherDate</value>
+  </data>
+  <data name="&gt;&gt;weatherDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;weatherDate.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;weatherDate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbltxt2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbltxt2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lbltxt2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>871, 100</value>
+  </data>
+  <data name="lbltxt2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 113</value>
+  </data>
+  <data name="lbltxt2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbltxt2.Text" xml:space="preserve">
+    <value>天气预报</value>
+  </data>
+  <data name="&gt;&gt;lbltxt2.Name" xml:space="preserve">
+    <value>lbltxt2</value>
+  </data>
+  <data name="&gt;&gt;lbltxt2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltxt2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbltxt2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblwd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblwd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblwd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 234</value>
+  </data>
+  <data name="lblwd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 113</value>
+  </data>
+  <data name="lblwd.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblwd.Text" xml:space="preserve">
+    <value>天气</value>
+  </data>
+  <data name="&gt;&gt;lblwd.Name" xml:space="preserve">
+    <value>lblwd</value>
+  </data>
+  <data name="&gt;&gt;lblwd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblwd.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblwd.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 234</value>
+  </data>
+  <data name="lblto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 113</value>
+  </data>
+  <data name="lblto.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblto.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;lblto.Name" xml:space="preserve">
+    <value>lblto</value>
+  </data>
+  <data name="&gt;&gt;lblto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblto.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblto.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblcd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblcd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblcd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>796, 234</value>
+  </data>
+  <data name="lblcd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 113</value>
+  </data>
+  <data name="lblcd.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblcd.Text" xml:space="preserve">
+    <value>℃</value>
+  </data>
+  <data name="&gt;&gt;lblcd.Name" xml:space="preserve">
+    <value>lblcd</value>
+  </data>
+  <data name="&gt;&gt;lblcd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcd.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblcd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblfrom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblfrom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblfrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 234</value>
+  </data>
+  <data name="lblfrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 113</value>
+  </data>
+  <data name="lblfrom.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblfrom.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;lblfrom.Name" xml:space="preserve">
+    <value>lblfrom</value>
+  </data>
+  <data name="&gt;&gt;lblfrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblfrom.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblfrom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbltxt1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbltxt1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lbltxt1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 234</value>
+  </data>
+  <data name="lbltxt1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 113</value>
+  </data>
+  <data name="lbltxt1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lbltxt1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="&gt;&gt;lbltxt1.Name" xml:space="preserve">
+    <value>lbltxt1</value>
+  </data>
+  <data name="&gt;&gt;lbltxt1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltxt1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbltxt1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblcity.Name" xml:space="preserve">
+    <value>lblcity</value>
+  </data>
+  <data name="&gt;&gt;lblcity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcity.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblcity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 71</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 386</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>现在天气</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblcity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblcity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.1pt</value>
+  </data>
+  <data name="lblcity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 111</value>
+  </data>
+  <data name="lblcity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 113</value>
+  </data>
+  <data name="lblcity.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblcity.Text" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="&gt;&gt;lblcity.Name" xml:space="preserve">
+    <value>lblcity</value>
+  </data>
+  <data name="&gt;&gt;lblcity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcity.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblcity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15pt</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 463</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 354</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>天气预报</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 17pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 75</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>温度格式：</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 17pt</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>℃</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>℉</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>542, 12</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 83</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1343, 838</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>天气预报</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

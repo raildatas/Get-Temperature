@@ -9,3 +9,7 @@ D:\编程\A应\wdj\obj\Debug\wdj.csproj.GenerateResource.cache
 D:\编程\A应\wdj\obj\Debug\wdj.csproj.CoreCompileInputs.cache
 D:\编程\A应\wdj\obj\Debug\wdj.exe
 D:\编程\A应\wdj\obj\Debug\wdj.pdb
+D:\编程\A应\wdj\obj\Debug\wdj.ErrorForm.resources
+D:\编程\A应\wdj\bin\Debug\zh-CN\wdj.resources.dll
+D:\编程\A应\wdj\obj\Debug\wdj.ErrorForm.zh-CN.resources
+D:\编程\A应\wdj\obj\Debug\zh-CN\wdj.resources.dll

@@ -1,0 +1,1117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="comboBox1.Items98" xml:space="preserve">
+    <value>铜陵市</value>
+  </data>
+  <data name="comboBox1.Items283" xml:space="preserve">
+    <value>固原市</value>
+  </data>
+  <data name="comboBox1.Items293" xml:space="preserve">
+    <value>安丘市</value>
+  </data>
+  <data name="comboBox1.Items19" xml:space="preserve">
+    <value>晋中市</value>
+  </data>
+  <data name="comboBox1.Items223" xml:space="preserve">
+    <value>海口市</value>
+  </data>
+  <data name="comboBox1.Items233" xml:space="preserve">
+    <value>广元市</value>
+  </data>
+  <data name="comboBox1.Items203" xml:space="preserve">
+    <value>清远市</value>
+  </data>
+  <data name="comboBox1.Items213" xml:space="preserve">
+    <value>北海市</value>
+  </data>
+  <data name="comboBox1.Items263" xml:space="preserve">
+    <value>延安市</value>
+  </data>
+  <data name="comboBox1.Items273" xml:space="preserve">
+    <value>武威市</value>
+  </data>
+  <data name="comboBox1.Items243" xml:space="preserve">
+    <value>巴中市</value>
+  </data>
+  <data name="comboBox1.Items253" xml:space="preserve">
+    <value>昭通市</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>唐山市</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>秦皇岛市</value>
+  </data>
+  <data name="comboBox1.Items20" xml:space="preserve">
+    <value>运城市</value>
+  </data>
+  <data name="comboBox1.Items120" xml:space="preserve">
+    <value>萍乡市</value>
+  </data>
+  <data name="comboBox1.Items81" xml:space="preserve">
+    <value>杭州市</value>
+  </data>
+  <data name="comboBox1.Items239" xml:space="preserve">
+    <value>宜宾市</value>
+  </data>
+  <data name="comboBox1.Items256" xml:space="preserve">
+    <value>临沧市</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.1pt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox1.Items189" xml:space="preserve">
+    <value>韶关市</value>
+  </data>
+  <data name="comboBox1.Items199" xml:space="preserve">
+    <value>梅州市</value>
+  </data>
+  <data name="comboBox1.Items129" xml:space="preserve">
+    <value>济南市</value>
+  </data>
+  <data name="comboBox1.Items139" xml:space="preserve">
+    <value>日照市</value>
+  </data>
+  <data name="comboBox1.Items109" xml:space="preserve">
+    <value>福州市</value>
+  </data>
+  <data name="comboBox1.Items119" xml:space="preserve">
+    <value>景德镇市</value>
+  </data>
+  <data name="comboBox1.Items169" xml:space="preserve">
+    <value>荆门市</value>
+  </data>
+  <data name="comboBox1.Items179" xml:space="preserve">
+    <value>邵阳市</value>
+  </data>
+  <data name="comboBox1.Items149" xml:space="preserve">
+    <value>平顶山市</value>
+  </data>
+  <data name="comboBox1.Items159" xml:space="preserve">
+    <value>商丘市</value>
+  </data>
+  <data name="comboBox1.Items231" xml:space="preserve">
+    <value>德阳市</value>
+  </data>
+  <data name="comboBox1.Items125" xml:space="preserve">
+    <value>吉安市</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>北京市</value>
+  </data>
+  <data name="comboBox1.Items21" xml:space="preserve">
+    <value>忻州市</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items184" xml:space="preserve">
+    <value>郴州市</value>
+  </data>
+  <data name="comboBox1.Items194" xml:space="preserve">
+    <value>江门市</value>
+  </data>
+  <data name="comboBox1.Items124" xml:space="preserve">
+    <value>赣州市</value>
+  </data>
+  <data name="comboBox1.Items134" xml:space="preserve">
+    <value>烟台市</value>
+  </data>
+  <data name="comboBox1.Items104" xml:space="preserve">
+    <value>巢湖市</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>邯郸市</value>
+  </data>
+  <data name="comboBox1.Items164" xml:space="preserve">
+    <value>黄石市</value>
+  </data>
+  <data name="comboBox1.Items174" xml:space="preserve">
+    <value>随州市</value>
+  </data>
+  <data name="comboBox1.Items144" xml:space="preserve">
+    <value>滨州市</value>
+  </data>
+  <data name="comboBox1.Items154" xml:space="preserve">
+    <value>濮阳市</value>
+  </data>
+  <data name="comboBox1.Items48" xml:space="preserve">
+    <value>吉林市</value>
+  </data>
+  <data name="comboBox1.Items49" xml:space="preserve">
+    <value>四平市</value>
+  </data>
+  <data name="comboBox1.Items42" xml:space="preserve">
+    <value>辽阳市</value>
+  </data>
+  <data name="comboBox1.Items43" xml:space="preserve">
+    <value>盘锦市</value>
+  </data>
+  <data name="comboBox1.Items40" xml:space="preserve">
+    <value>营口市</value>
+  </data>
+  <data name="comboBox1.Items41" xml:space="preserve">
+    <value>阜新市</value>
+  </data>
+  <data name="comboBox1.Items46" xml:space="preserve">
+    <value>葫芦岛市</value>
+  </data>
+  <data name="comboBox1.Items47" xml:space="preserve">
+    <value>长春市</value>
+  </data>
+  <data name="comboBox1.Items44" xml:space="preserve">
+    <value>铁岭市</value>
+  </data>
+  <data name="comboBox1.Items45" xml:space="preserve">
+    <value>朝阳市</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>645, 210</value>
+  </data>
+  <data name="comboBox1.Items110" xml:space="preserve">
+    <value>厦门市</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBox1.Items188" xml:space="preserve">
+    <value>广州市</value>
+  </data>
+  <data name="comboBox1.Items198" xml:space="preserve">
+    <value>惠州市</value>
+  </data>
+  <data name="comboBox1.Items128" xml:space="preserve">
+    <value>上饶市</value>
+  </data>
+  <data name="comboBox1.Items138" xml:space="preserve">
+    <value>威海市</value>
+  </data>
+  <data name="comboBox1.Items108" xml:space="preserve">
+    <value>宣城市</value>
+  </data>
+  <data name="comboBox1.Items118" xml:space="preserve">
+    <value>南昌市</value>
+  </data>
+  <data name="comboBox1.Items168" xml:space="preserve">
+    <value>鄂州市</value>
+  </data>
+  <data name="comboBox1.Items178" xml:space="preserve">
+    <value>衡阳市</value>
+  </data>
+  <data name="comboBox1.Items148" xml:space="preserve">
+    <value>洛阳市</value>
+  </data>
+  <data name="comboBox1.Items158" xml:space="preserve">
+    <value>南阳市</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>无法获取本机所在城市，
+请选择本机所在城市</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.1pt</value>
+  </data>
+  <data name="comboBox1.Items88" xml:space="preserve">
+    <value>衢州市</value>
+  </data>
+  <data name="comboBox1.Items89" xml:space="preserve">
+    <value>舟山市</value>
+  </data>
+  <data name="comboBox1.Items82" xml:space="preserve">
+    <value>宁波市</value>
+  </data>
+  <data name="comboBox1.Items162" xml:space="preserve">
+    <value>驻马店市</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="comboBox1.Items290" xml:space="preserve">
+    <value>太仓市</value>
+  </data>
+  <data name="comboBox1.Items86" xml:space="preserve">
+    <value>绍兴市</value>
+  </data>
+  <data name="comboBox1.Items87" xml:space="preserve">
+    <value>金华市</value>
+  </data>
+  <data name="comboBox1.Items84" xml:space="preserve">
+    <value>嘉兴市</value>
+  </data>
+  <data name="comboBox1.Items85" xml:space="preserve">
+    <value>湖州市</value>
+  </data>
+  <data name="comboBox1.Items220" xml:space="preserve">
+    <value>河池市</value>
+  </data>
+  <data name="comboBox1.Items230" xml:space="preserve">
+    <value>泸州市</value>
+  </data>
+  <data name="comboBox1.Items200" xml:space="preserve">
+    <value>汕尾市</value>
+  </data>
+  <data name="comboBox1.Items210" xml:space="preserve">
+    <value>柳州市</value>
+  </data>
+  <data name="comboBox1.Items260" xml:space="preserve">
+    <value>宝鸡市</value>
+  </data>
+  <data name="comboBox1.Items270" xml:space="preserve">
+    <value>金昌市</value>
+  </data>
+  <data name="comboBox1.Items240" xml:space="preserve">
+    <value>广安市</value>
+  </data>
+  <data name="comboBox1.Items250" xml:space="preserve">
+    <value>曲靖市</value>
+  </data>
+  <data name="comboBox1.Items69" xml:space="preserve">
+    <value>无锡市</value>
+  </data>
+  <data name="comboBox1.Items180" xml:space="preserve">
+    <value>岳阳市</value>
+  </data>
+  <data name="comboBox1.Items190" xml:space="preserve">
+    <value>深圳市</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>石家庄市</value>
+  </data>
+  <data name="comboBox1.Items114" xml:space="preserve">
+    <value>漳州市</value>
+  </data>
+  <data name="comboBox1.Items100" xml:space="preserve">
+    <value>黄山市</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>天津市</value>
+  </data>
+  <data name="comboBox1.Items160" xml:space="preserve">
+    <value>信阳市</value>
+  </data>
+  <data name="comboBox1.Items170" xml:space="preserve">
+    <value>孝感市</value>
+  </data>
+  <data name="comboBox1.Items140" xml:space="preserve">
+    <value>莱芜市</value>
+  </data>
+  <data name="comboBox1.Items150" xml:space="preserve">
+    <value>安阳市</value>
+  </data>
+  <data name="comboBox1.Items68" xml:space="preserve">
+    <value>南京市</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="comboBox1.Items58" xml:space="preserve">
+    <value>鹤岗市</value>
+  </data>
+  <data name="comboBox1.Items59" xml:space="preserve">
+    <value>双鸭山市</value>
+  </data>
+  <data name="comboBox1.Items105" xml:space="preserve">
+    <value>六安市</value>
+  </data>
+  <data name="comboBox1.Items52" xml:space="preserve">
+    <value>白山市</value>
+  </data>
+  <data name="comboBox1.Items53" xml:space="preserve">
+    <value>松原市</value>
+  </data>
+  <data name="comboBox1.Items50" xml:space="preserve">
+    <value>辽源市</value>
+  </data>
+  <data name="comboBox1.Items51" xml:space="preserve">
+    <value>通化市</value>
+  </data>
+  <data name="comboBox1.Items56" xml:space="preserve">
+    <value>齐齐哈尔市</value>
+  </data>
+  <data name="comboBox1.Items57" xml:space="preserve">
+    <value>鸡西市</value>
+  </data>
+  <data name="comboBox1.Items54" xml:space="preserve">
+    <value>白城市</value>
+  </data>
+  <data name="comboBox1.Items55" xml:space="preserve">
+    <value>哈尔滨市</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="comboBox1.Items165" xml:space="preserve">
+    <value>十堰市</value>
+  </data>
+  <data name="comboBox1.Items236" xml:space="preserve">
+    <value>乐山市</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>张家口市</value>
+  </data>
+  <data name="comboBox1.Items83" xml:space="preserve">
+    <value>温州市</value>
+  </data>
+  <data name="comboBox1.Items234" xml:space="preserve">
+    <value>遂宁市</value>
+  </data>
+  <data name="comboBox1.Items187" xml:space="preserve">
+    <value>娄底市</value>
+  </data>
+  <data name="comboBox1.Items197" xml:space="preserve">
+    <value>肇庆市</value>
+  </data>
+  <data name="comboBox1.Items127" xml:space="preserve">
+    <value>抚州市</value>
+  </data>
+  <data name="comboBox1.Items137" xml:space="preserve">
+    <value>泰安市</value>
+  </data>
+  <data name="comboBox1.Items107" xml:space="preserve">
+    <value>池州市</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>邢台市</value>
+  </data>
+  <data name="comboBox1.Items167" xml:space="preserve">
+    <value>襄樊市</value>
+  </data>
+  <data name="comboBox1.Items177" xml:space="preserve">
+    <value>湘潭市</value>
+  </data>
+  <data name="comboBox1.Items147" xml:space="preserve">
+    <value>开封市</value>
+  </data>
+  <data name="comboBox1.Items157" xml:space="preserve">
+    <value>三门峡市</value>
+  </data>
+  <data name="comboBox1.Items185" xml:space="preserve">
+    <value>永州市</value>
+  </data>
+  <data name="comboBox1.Items284" xml:space="preserve">
+    <value>中卫市</value>
+  </data>
+  <data name="comboBox1.Items294" xml:space="preserve">
+    <value>登封市</value>
+  </data>
+  <data name="comboBox1.Items224" xml:space="preserve">
+    <value>三亚市</value>
+  </data>
+  <data name="comboBox1.Items18" xml:space="preserve">
+    <value>朔州市</value>
+  </data>
+  <data name="comboBox1.Items204" xml:space="preserve">
+    <value>东莞市</value>
+  </data>
+  <data name="comboBox1.Items214" xml:space="preserve">
+    <value>防城港市</value>
+  </data>
+  <data name="comboBox1.Items264" xml:space="preserve">
+    <value>汉中市</value>
+  </data>
+  <data name="comboBox1.Items274" xml:space="preserve">
+    <value>张掖市</value>
+  </data>
+  <data name="comboBox1.Items244" xml:space="preserve">
+    <value>资阳市</value>
+  </data>
+  <data name="comboBox1.Items254" xml:space="preserve">
+    <value>丽江市</value>
+  </data>
+  <data name="comboBox1.Items13" xml:space="preserve">
+    <value>太原市</value>
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>沧州市</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>廊坊市</value>
+  </data>
+  <data name="comboBox1.Items16" xml:space="preserve">
+    <value>长治市</value>
+  </data>
+  <data name="comboBox1.Items17" xml:space="preserve">
+    <value>晋城市</value>
+  </data>
+  <data name="comboBox1.Items14" xml:space="preserve">
+    <value>大同市</value>
+  </data>
+  <data name="comboBox1.Items15" xml:space="preserve">
+    <value>阳泉市</value>
+  </data>
+  <data name="comboBox1.Items32" xml:space="preserve">
+    <value>乌兰察布市</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 120</value>
+  </data>
+  <data name="comboBox1.Items117" xml:space="preserve">
+    <value>宁德市</value>
+  </data>
+  <data name="comboBox1.Items64" xml:space="preserve">
+    <value>牡丹江市</value>
+  </data>
+  <data name="comboBox1.Items288" xml:space="preserve">
+    <value>根河市</value>
+  </data>
+  <data name="comboBox1.Items206" xml:space="preserve">
+    <value>潮州市</value>
+  </data>
+  <data name="comboBox1.Items228" xml:space="preserve">
+    <value>自贡市</value>
+  </data>
+  <data name="comboBox1.Items238" xml:space="preserve">
+    <value>眉山市</value>
+  </data>
+  <data name="comboBox1.Items208" xml:space="preserve">
+    <value>云浮市</value>
+  </data>
+  <data name="comboBox1.Items218" xml:space="preserve">
+    <value>百色市</value>
+  </data>
+  <data name="comboBox1.Items268" xml:space="preserve">
+    <value>兰州市</value>
+  </data>
+  <data name="comboBox1.Items278" xml:space="preserve">
+    <value>定西市</value>
+  </data>
+  <data name="comboBox1.Items248" xml:space="preserve">
+    <value>安顺市</value>
+  </data>
+  <data name="comboBox1.Items258" xml:space="preserve">
+    <value>西安市</value>
+  </data>
+  <data name="comboBox1.Items280" xml:space="preserve">
+    <value>银川市</value>
+  </data>
+  <data name="comboBox1.Items30" xml:space="preserve">
+    <value>呼伦贝尔市</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.1pt</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value>承德市</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>衡水市</value>
+  </data>
+  <data name="comboBox1.Items183" xml:space="preserve">
+    <value>益阳市</value>
+  </data>
+  <data name="comboBox1.Items193" xml:space="preserve">
+    <value>佛山市</value>
+  </data>
+  <data name="comboBox1.Items195" xml:space="preserve">
+    <value>湛江市</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="comboBox1.Items123" xml:space="preserve">
+    <value>鹰潭市</value>
+  </data>
+  <data name="comboBox1.Items133" xml:space="preserve">
+    <value>东营市</value>
+  </data>
+  <data name="comboBox1.Items103" xml:space="preserve">
+    <value>宿州市</value>
+  </data>
+  <data name="comboBox1.Items113" xml:space="preserve">
+    <value>泉州市</value>
+  </data>
+  <data name="comboBox1.Items163" xml:space="preserve">
+    <value>武汉市</value>
+  </data>
+  <data name="comboBox1.Items173" xml:space="preserve">
+    <value>咸宁市</value>
+  </data>
+  <data name="comboBox1.Items143" xml:space="preserve">
+    <value>聊城市</value>
+  </data>
+  <data name="comboBox1.Items153" xml:space="preserve">
+    <value>焦作市</value>
+  </data>
+  <data name="comboBox1.Items186" xml:space="preserve">
+    <value>怀化市</value>
+  </data>
+  <data name="comboBox1.Items196" xml:space="preserve">
+    <value>茂名市</value>
+  </data>
+  <data name="comboBox1.Items126" xml:space="preserve">
+    <value>宜春市</value>
+  </data>
+  <data name="comboBox1.Items136" xml:space="preserve">
+    <value>济宁市</value>
+  </data>
+  <data name="comboBox1.Items106" xml:space="preserve">
+    <value>亳州市</value>
+  </data>
+  <data name="comboBox1.Items116" xml:space="preserve">
+    <value>龙岩市</value>
+  </data>
+  <data name="comboBox1.Items166" xml:space="preserve">
+    <value>宜昌市</value>
+  </data>
+  <data name="comboBox1.Items176" xml:space="preserve">
+    <value>株洲市</value>
+  </data>
+  <data name="comboBox1.Items146" xml:space="preserve">
+    <value>郑州市</value>
+  </data>
+  <data name="comboBox1.Items156" xml:space="preserve">
+    <value>漯河市</value>
+  </data>
+  <data name="comboBox1.Items285" xml:space="preserve">
+    <value>乌鲁木齐市</value>
+  </data>
+  <data name="comboBox1.Items295" xml:space="preserve">
+    <value>儋州市</value>
+  </data>
+  <data name="comboBox1.Items225" xml:space="preserve">
+    <value>重庆市</value>
+  </data>
+  <data name="comboBox1.Items235" xml:space="preserve">
+    <value>内江市</value>
+  </data>
+  <data name="comboBox1.Items205" xml:space="preserve">
+    <value>中山市</value>
+  </data>
+  <data name="comboBox1.Items215" xml:space="preserve">
+    <value>钦州市</value>
+  </data>
+  <data name="comboBox1.Items265" xml:space="preserve">
+    <value>榆林市</value>
+  </data>
+  <data name="comboBox1.Items275" xml:space="preserve">
+    <value>平凉市</value>
+  </data>
+  <data name="comboBox1.Items245" xml:space="preserve">
+    <value>贵阳市</value>
+  </data>
+  <data name="comboBox1.Items255" xml:space="preserve">
+    <value>思茅市</value>
+  </data>
+  <data name="comboBox1.Items63" xml:space="preserve">
+    <value>七台河市</value>
+  </data>
+  <data name="comboBox1.Items60" xml:space="preserve">
+    <value>大庆市</value>
+  </data>
+  <data name="comboBox1.Items61" xml:space="preserve">
+    <value>伊春市</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 132</value>
+  </data>
+  <data name="comboBox1.Items67" xml:space="preserve">
+    <value>上海市</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items65" xml:space="preserve">
+    <value>黑河市</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 68</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ErrorForm</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBox1.Items171" xml:space="preserve">
+    <value>荆州市</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 116</value>
+  </data>
+  <data name="comboBox1.Items175" xml:space="preserve">
+    <value>长沙市</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="comboBox1.Items130" xml:space="preserve">
+    <value>青岛市</value>
+  </data>
+  <data name="comboBox1.Items182" xml:space="preserve">
+    <value>张家界市</value>
+  </data>
+  <data name="comboBox1.Items192" xml:space="preserve">
+    <value>汕头市</value>
+  </data>
+  <data name="comboBox1.Items122" xml:space="preserve">
+    <value>新余市</value>
+  </data>
+  <data name="comboBox1.Items132" xml:space="preserve">
+    <value>枣庄市</value>
+  </data>
+  <data name="comboBox1.Items102" xml:space="preserve">
+    <value>阜阳市</value>
+  </data>
+  <data name="comboBox1.Items112" xml:space="preserve">
+    <value>三明市</value>
+  </data>
+  <data name="comboBox1.Items99" xml:space="preserve">
+    <value>安庆市</value>
+  </data>
+  <data name="comboBox1.Items172" xml:space="preserve">
+    <value>黄冈市</value>
+  </data>
+  <data name="comboBox1.Items142" xml:space="preserve">
+    <value>德州市</value>
+  </data>
+  <data name="comboBox1.Items152" xml:space="preserve">
+    <value>新乡市</value>
+  </data>
+  <data name="comboBox1.Items92" xml:space="preserve">
+    <value>合肥市</value>
+  </data>
+  <data name="comboBox1.Items93" xml:space="preserve">
+    <value>芜湖市</value>
+  </data>
+  <data name="comboBox1.Items90" xml:space="preserve">
+    <value>台州市</value>
+  </data>
+  <data name="comboBox1.Items291" xml:space="preserve">
+    <value>莱西市</value>
+  </data>
+  <data name="comboBox1.Items96" xml:space="preserve">
+    <value>马鞍山市</value>
+  </data>
+  <data name="comboBox1.Items97" xml:space="preserve">
+    <value>淮北市</value>
+  </data>
+  <data name="comboBox1.Items94" xml:space="preserve">
+    <value>蚌埠市</value>
+  </data>
+  <data name="comboBox1.Items95" xml:space="preserve">
+    <value>淮南市</value>
+  </data>
+  <data name="comboBox1.Items221" xml:space="preserve">
+    <value>来宾市</value>
+  </data>
+  <data name="comboBox1.Items28" xml:space="preserve">
+    <value>通辽市</value>
+  </data>
+  <data name="comboBox1.Items201" xml:space="preserve">
+    <value>河源市</value>
+  </data>
+  <data name="comboBox1.Items211" xml:space="preserve">
+    <value>桂林市</value>
+  </data>
+  <data name="comboBox1.Items261" xml:space="preserve">
+    <value>咸阳市</value>
+  </data>
+  <data name="comboBox1.Items271" xml:space="preserve">
+    <value>白银市</value>
+  </data>
+  <data name="comboBox1.Items241" xml:space="preserve">
+    <value>达州市</value>
+  </data>
+  <data name="comboBox1.Items251" xml:space="preserve">
+    <value>玉溪市</value>
+  </data>
+  <data name="comboBox1.Items23" xml:space="preserve">
+    <value>吕梁市</value>
+  </data>
+  <data name="comboBox1.Items286" xml:space="preserve">
+    <value>克拉玛依市</value>
+  </data>
+  <data name="comboBox1.Items135" xml:space="preserve">
+    <value>潍坊市</value>
+  </data>
+  <data name="comboBox1.Items26" xml:space="preserve">
+    <value>乌海市</value>
+  </data>
+  <data name="comboBox1.Items27" xml:space="preserve">
+    <value>赤峰市</value>
+  </data>
+  <data name="comboBox1.Items24" xml:space="preserve">
+    <value>呼和浩特市</value>
+  </data>
+  <data name="comboBox1.Items25" xml:space="preserve">
+    <value>包头市</value>
+  </data>
+  <data name="comboBox1.Items226" xml:space="preserve">
+    <value>市</value>
+  </data>
+  <data name="comboBox1.Items78" xml:space="preserve">
+    <value>镇江市</value>
+  </data>
+  <data name="comboBox1.Items79" xml:space="preserve">
+    <value>泰州市</value>
+  </data>
+  <data name="comboBox1.Items216" xml:space="preserve">
+    <value>贵港市</value>
+  </data>
+  <data name="comboBox1.Items266" xml:space="preserve">
+    <value>安康市</value>
+  </data>
+  <data name="comboBox1.Items276" xml:space="preserve">
+    <value>酒泉市</value>
+  </data>
+  <data name="comboBox1.Items246" xml:space="preserve">
+    <value>六盘水市</value>
+  </data>
+  <data name="comboBox1.Items72" xml:space="preserve">
+    <value>苏州市</value>
+  </data>
+  <data name="comboBox1.Items73" xml:space="preserve">
+    <value>南通市</value>
+  </data>
+  <data name="comboBox1.Items70" xml:space="preserve">
+    <value>徐州市</value>
+  </data>
+  <data name="comboBox1.Items71" xml:space="preserve">
+    <value>常州市</value>
+  </data>
+  <data name="comboBox1.Items76" xml:space="preserve">
+    <value>盐城市</value>
+  </data>
+  <data name="comboBox1.Items77" xml:space="preserve">
+    <value>扬州市</value>
+  </data>
+  <data name="comboBox1.Items74" xml:space="preserve">
+    <value>连云港市</value>
+  </data>
+  <data name="comboBox1.Items75" xml:space="preserve">
+    <value>淮安市</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items38" xml:space="preserve">
+    <value>丹东市</value>
+  </data>
+  <data name="comboBox1.Items145" xml:space="preserve">
+    <value>荷泽市</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ErrorForm</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBox1.Items29" xml:space="preserve">
+    <value>鄂尔多斯市</value>
+  </data>
+  <data name="comboBox1.Items22" xml:space="preserve">
+    <value>临汾市</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="comboBox1.Items62" xml:space="preserve">
+    <value>佳木斯市</value>
+  </data>
+  <data name="comboBox1.Items181" xml:space="preserve">
+    <value>常德市</value>
+  </data>
+  <data name="comboBox1.Items191" xml:space="preserve">
+    <value>珠海市</value>
+  </data>
+  <data name="comboBox1.Items121" xml:space="preserve">
+    <value>九江市</value>
+  </data>
+  <data name="comboBox1.Items131" xml:space="preserve">
+    <value>淄博市</value>
+  </data>
+  <data name="comboBox1.Items101" xml:space="preserve">
+    <value>滁州市</value>
+  </data>
+  <data name="comboBox1.Items111" xml:space="preserve">
+    <value>莆田市</value>
+  </data>
+  <data name="comboBox1.Items161" xml:space="preserve">
+    <value>周口市</value>
+  </data>
+  <data name="comboBox1.Items91" xml:space="preserve">
+    <value>丽水市</value>
+  </data>
+  <data name="comboBox1.Items141" xml:space="preserve">
+    <value>临沂市</value>
+  </data>
+  <data name="comboBox1.Items151" xml:space="preserve">
+    <value>鹤壁市</value>
+  </data>
+  <data name="comboBox1.Items282" xml:space="preserve">
+    <value>吴忠市</value>
+  </data>
+  <data name="comboBox1.Items292" xml:space="preserve">
+    <value>莱州市</value>
+  </data>
+  <data name="comboBox1.Items222" xml:space="preserve">
+    <value>崇左市</value>
+  </data>
+  <data name="comboBox1.Items232" xml:space="preserve">
+    <value>绵阳市</value>
+  </data>
+  <data name="comboBox1.Items202" xml:space="preserve">
+    <value>阳江市</value>
+  </data>
+  <data name="comboBox1.Items212" xml:space="preserve">
+    <value>梧州市</value>
+  </data>
+  <data name="comboBox1.Items262" xml:space="preserve">
+    <value>渭南市</value>
+  </data>
+  <data name="comboBox1.Items272" xml:space="preserve">
+    <value>天水市</value>
+  </data>
+  <data name="comboBox1.Items242" xml:space="preserve">
+    <value>雅安市</value>
+  </data>
+  <data name="comboBox1.Items252" xml:space="preserve">
+    <value>保山市</value>
+  </data>
+  <data name="comboBox1.Items33" xml:space="preserve">
+    <value>沈阳市</value>
+  </data>
+  <data name="comboBox1.Items287" xml:space="preserve">
+    <value>鹿泉市</value>
+  </data>
+  <data name="comboBox1.Items31" xml:space="preserve">
+    <value>巴彦淖尔市</value>
+  </data>
+  <data name="comboBox1.Items36" xml:space="preserve">
+    <value>抚顺市</value>
+  </data>
+  <data name="comboBox1.Items37" xml:space="preserve">
+    <value>本溪市</value>
+  </data>
+  <data name="comboBox1.Items34" xml:space="preserve">
+    <value>大连市</value>
+  </data>
+  <data name="comboBox1.Items35" xml:space="preserve">
+    <value>鞍山市</value>
+  </data>
+  <data name="comboBox1.Items227" xml:space="preserve">
+    <value>成都市</value>
+  </data>
+  <data name="comboBox1.Items237" xml:space="preserve">
+    <value>南充市</value>
+  </data>
+  <data name="comboBox1.Items207" xml:space="preserve">
+    <value>揭阳市</value>
+  </data>
+  <data name="comboBox1.Items217" xml:space="preserve">
+    <value>玉林市</value>
+  </data>
+  <data name="comboBox1.Items267" xml:space="preserve">
+    <value>商洛市</value>
+  </data>
+  <data name="comboBox1.Items277" xml:space="preserve">
+    <value>庆阳市</value>
+  </data>
+  <data name="comboBox1.Items247" xml:space="preserve">
+    <value>遵义市</value>
+  </data>
+  <data name="comboBox1.Items257" xml:space="preserve">
+    <value>拉萨市</value>
+  </data>
+  <data name="comboBox1.Items155" xml:space="preserve">
+    <value>许昌市</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>保定市</value>
+  </data>
+  <data name="comboBox1.Items115" xml:space="preserve">
+    <value>南平市</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items39" xml:space="preserve">
+    <value>锦州市</value>
+  </data>
+  <data name="comboBox1.Items281" xml:space="preserve">
+    <value>石嘴山市</value>
+  </data>
+  <data name="comboBox1.Items80" xml:space="preserve">
+    <value>宿迁市</value>
+  </data>
+  <data name="comboBox1.Items66" xml:space="preserve">
+    <value>绥化市</value>
+  </data>
+  <data name="comboBox1.Items289" xml:space="preserve">
+    <value>敦化市</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 84</value>
+  </data>
+  <data name="comboBox1.Items229" xml:space="preserve">
+    <value>攀枝花市</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items209" xml:space="preserve">
+    <value>南宁市</value>
+  </data>
+  <data name="comboBox1.Items219" xml:space="preserve">
+    <value>贺州市</value>
+  </data>
+  <data name="comboBox1.Items269" xml:space="preserve">
+    <value>嘉峪关市</value>
+  </data>
+  <data name="comboBox1.Items279" xml:space="preserve">
+    <value>西宁市</value>
+  </data>
+  <data name="comboBox1.Items249" xml:space="preserve">
+    <value>昆明市</value>
+  </data>
+  <data name="comboBox1.Items259" xml:space="preserve">
+    <value>铜川市</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>
